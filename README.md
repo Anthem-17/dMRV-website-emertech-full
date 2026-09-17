@@ -15,8 +15,11 @@ A set of web apps built for Emertech Innovations' dMRV (digital Measurement, Rep
 ## Repo structure
 .
 ├── website/ # Homepage — links out to each sector page
+
 ├── agriculture/ # Agriculture sector page (standalone app)
+
 ├── agroforestry/ # Agroforestry sector page (standalone app)
+
 └── biochar/ # Biochar sector page (standalone app)
 
 
