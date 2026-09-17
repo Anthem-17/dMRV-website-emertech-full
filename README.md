@@ -13,10 +13,10 @@ A set of web apps built for Emertech Innovations' dMRV (digital Measurement, Rep
 | Biochar | https://dmrv-biochar-2.vercel.app/ |
 
 ## Repo structure
-* **`/website/`** — Homepage (links out to each sector page)
-* **`/agriculture/`** — Agriculture sector page (standalone app)
-* **`/agroforestry/`** — Agroforestry sector page (standalone app)
-* **`/biochar/`** — Biochar sector page (standalone app)
+* **`/dmrv-landing-page/`** — Homepage (links out to each sector page)
+* **`/emertech-agri-dmrv/`** — Agriculture sector page (standalone app)
+* **`/agroforestry-site/`** — Agroforestry sector page (standalone app)
+* **`/emertech-biochar-dmrv/`** — Biochar sector page (standalone app)
 
 
 Each folder is a fully independent app with its own package.json and deployment — not a monorepo build, just grouped here for review convenience. This let me ship each sector as it was finished rather than waiting on all four to be ready at once.
@@ -32,7 +32,7 @@ Each folder is a fully independent app with its own package.json and deployment 
 Each folder runs independently:
 
 ```bash
-cd website          # or agriculture / agroforestry / biochar
+cd dmrv-landing-page          # or emertech-agri-dmrv / agroforestry-site / emertech-biochar-dmrv
 npm install
 npm run dev
 ```
